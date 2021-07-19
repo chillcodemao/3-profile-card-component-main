@@ -1,0 +1,40 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    /* background-color: hsl(185, 75%, 39%); */
+}
+
+.profile-preview-card {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.age {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+.stats-followers, .stats-likes, .stats-photos {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.followers, .likes, .photos {
+    color: hsl(227, 10%, 46%);
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+p {
+    color: hsl(227, 10%, 46%);
+    font-size: 1.5rem;
+}
+
