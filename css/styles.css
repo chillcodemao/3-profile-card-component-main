@@ -3,14 +3,14 @@ html {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     min-height: 100vh;
     background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
     background-position: bottom 45vh right 50vw, top 45vh left 50vw;
     background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%);
+    padding: 2.5rem;
 }
 
 .profile-preview-card {
@@ -22,29 +22,32 @@ body {
     background-image: url(../img/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-color: white;
-    width: 32rem;
+    width: 100%;
+    max-width: 35rem;
     height: 38rem;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+    margin: auto;
 }
 
 .profile-preview-picture {
     border-radius: 50%;
     border: 0.5rem solid white;
-    position: relative;
-    top: 0.5rem;
+    position: absolute;
+    top: 9rem;
 }
 
 h1 {
-    position: relative;
-    top: 2rem;
+    position: absolute;
+    top: 22rem;
 }
 
 .location {
-    position: relative;
-    top: 3rem;
+    position: absolute;
     font-size: 1.5rem;
+    top: 25rem;
 }
 
 .profile-stats {
@@ -53,9 +56,9 @@ h1 {
     justify-content: space-around;
     align-items: center;
     border-top: 1px solid 	rgb(220,220,220);
-    width: 32rem;
+    width: 100%;
     line-height: 2rem;
-    position: relative;
-    top: 6rem;
+    position: absolute;
+    top: 29rem;
     padding-top: 3rem;
 }
